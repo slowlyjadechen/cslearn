@@ -26,20 +26,29 @@ shell 提示符
 [christine@server01 ~]$
 ```
 
-
 除了作为shell的入口，提示符还能够提供其他的辅助信息。在上面的两个例子中，提示符中显示了当前用户ID名christine。另外还包括系统名server01。
+
+> Linux常用目录名
+>
+> ![linuxfilename](https://github.com/slowlyjadechen/cslearn/raw/main/LinuxAndShell/Linuxshellbackup/C3_linuxCatalogueName.png)
 
 ## bash 手册
 
 ### man命令
 
 - man命令用来访问存储在Linux系统上的手册页面。在想要查找的工具的名称前面输入man命令，就可以找到那个工具相应的手册条。
-
 - man工具通常提供的是命令所对应的最低编号的内容。例如，输入的是命令man xterm，在现实内容的左上角和右上角，单词XTERM后的括号中有一个数字：(1)。这表示所显示的手册页来自内容区域1（可执行程序或shell命令）。
-
 - 一个命令偶尔会在多个内容区域都有对应的手册页。比如说，有个叫作hostname的命令。手册页中既包括该命令的相关信息，也包括对系统主机名的概述。要想查看所需要的页面，可以输入`man section# topic`。<u>**对手册页中的第1部分而言，就是输入man 1 hostname。对于手册页中的第7部分，就是输入man 7 hostname。**</u>
 
-  浏览文件系统
+> man 返回结果说明
+>
+> ![](https://github.com/slowlyjadechen/cslearn/raw/main/LinuxAndShell/Linuxshellbackup/C3_linuxManual.png)
+>
+> 内容区域分区说明
+>
+> ![](https://github.com/slowlyjadechen/cslearn/raw/main/LinuxAndShell/Linuxshellbackup/C3_linuxManualdomain.png)
+>
+> ![](https://github.com/slowlyjadechen/cslearn/raw/main/LinuxAndShell/Linuxshellbackup/C3_linuxManualdomain2.png)
 
 ### info \<topic\>
 
