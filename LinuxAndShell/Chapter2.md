@@ -9,4 +9,4 @@
 
 setterm 相关选项
 
-![setterm](https://github.com/slowlyjadechen/cslearn/raw/main/LinuxAndShell/Linuxshellbackup/settermOption.png)
+![setterm](https://github.com/slowlyjadechen/cslearn/raw/main/LinuxAndShell/Linuxshellbackup/C2_settermOption.png)

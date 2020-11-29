@@ -9,7 +9,7 @@ Linux可划分为以下四部分：
 -  图形化桌面环境
 - 应用软件
 
-![Linux系统](https://github.com/slowlyjadechen/cslearn/raw/main/LinuxAndShell/Linuxshellbackup/linuxsystem.png)
+![Linux系统](https://github.com/slowlyjadechen/cslearn/raw/main/LinuxAndShell/Linuxshellbackup/C1_linuxsystem.png)
 
 ## Linux内核
 
@@ -53,7 +53,7 @@ Linux为系统上的每个设备都创建一种称为`节点`的特殊文件。<
 
 > linux文件系统
 >
-> ![Linux文件系统](https://github.com/slowlyjadechen/cslearn/raw/main/LinuxAndShell/Linuxshellbackup/linuxfilesystem.png)
+> ![Linux文件系统](https://github.com/slowlyjadechen/cslearn/raw/main/LinuxAndShell/Linuxshellbackup/C1_linuxfilesystem.png)
 
 Linux内核采用`虚拟文件系统`（Virtual File System，VFS）作为和每个文件系统交互的接口。这为Linux内核同任何类型文件系统通信提供了一个标准接口。当每个文件系统都被挂载和使用时，VFS将信息都缓存在内存中。
 
