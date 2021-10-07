@@ -72,3 +72,15 @@ https://www.liaoxuefeng.com/wiki/896043488029600/900375748016320
 
 4.6 rebase
 https://www.liaoxuefeng.com/wiki/896043488029600/1216289527823648
+
+
+
+5.标签
+5.1 创建标签
+命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id，如git tag <tagname> <commit id>
+命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；也可以指定一个commit id，ID加在最后同上；
+命令git tag可以查看所有标签。
+可以用git show <tagname>查看标签信息
+
+5.2 操作标签
+https://www.liaoxuefeng.com/wiki/896043488029600/902335479936480
