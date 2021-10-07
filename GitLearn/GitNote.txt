@@ -40,3 +40,18 @@ git checkout -- file回退到最近一次git add 或者git commit的状态，并
 3.远程仓库
 3.1 关联远程仓库
 方法https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416
+
+3.2 常用命令
+git clone 地址：将远程仓库内容克隆到本地，并将目标文件夹和远程仓库关联
+git push：将缓存区内容推送到远程
+
+
+
+4.分支管理
+4.1 创建和合并分支
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>或者git switch <name>
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+合并某分支到*当前分支*：git merge <name>
+删除分支：git branch -d <name>
