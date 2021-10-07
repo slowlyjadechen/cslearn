@@ -1,4 +1,5 @@
 #####笔记内容来自廖雪峰Git教程https://www.liaoxuefeng.com/wiki/896043488029600 #####
+##### 作为git学习的笔记以及Git使用的练习#####
 
 1. 基本命令 
 初始化一个Git仓库，使用git init命令。
@@ -55,5 +56,19 @@ git push：将缓存区内容推送到远程
 创建+切换分支：git checkout -b <name>或者git switch -c <name>
 合并某分支到*当前分支*：git merge <name>
 删除分支：git branch -d <name>
->使用merge合并后main分支的内容并没有更新，merge后使用git push命令之后远程main分支的内容就是最新的。what？？？？
+>使用merge合并后main分支的内容并没有更新，merge后使用git push命令之后远程main分支的内容就是最新的
 
+4.2 冲突
+要合并的两个分支相比于之前的位置都移动了相同的步数，如果存在内容不同，合并的时候就会有冲突。这时文档里会提示对应的冲突内容，将冲突内容修改后重新提交即可，。
+
+4.3 bug分支
+https://www.liaoxuefeng.com/wiki/896043488029600/900388704535136
+
+4.4 新功能分区
+开发一个新feature，最好新建一个分支；如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除
+
+4.5 多人协作
+https://www.liaoxuefeng.com/wiki/896043488029600/900375748016320
+
+4.6 rebase
+https://www.liaoxuefeng.com/wiki/896043488029600/1216289527823648
