@@ -55,3 +55,5 @@ git push：将缓存区内容推送到远程
 创建+切换分支：git checkout -b <name>或者git switch -c <name>
 合并某分支到*当前分支*：git merge <name>
 删除分支：git branch -d <name>
+
+测试冲突
