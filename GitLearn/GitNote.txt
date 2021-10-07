@@ -55,8 +55,5 @@ git push：将缓存区内容推送到远程
 创建+切换分支：git checkout -b <name>或者git switch -c <name>
 合并某分支到*当前分支*：git merge <name>
 删除分支：git branch -d <name>
-<<<<<<< HEAD
 >使用merge合并后main分支的内容并没有更新，merge后使用git push命令之后远程main分支的内容就是最新的。what？？？？
-=======
->使用merge合并后main分支的内容并没有更新，merge后使用git push命令之后远程main分支的内容就是最新的。what？？？？
->>>>>>> fig1
+
